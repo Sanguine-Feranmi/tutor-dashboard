@@ -1,30 +1,3 @@
-// "use client"
-// import Link from 'next/link';
-// import styles from './menulink.module.css';
-// import { usePathname } from 'next/navigation';
-
-// interface MenuItem {
-//   title: string;
-//   path: string;
-//   Icon: JSX.Element;
-// }
-
-// const Menulink = ({ item }: { item: MenuItem }) => {
-//     const pathname = usePathname();
-    
-//     return (
-//         <Link href={item.path} passHref>
-//             <a className={`${styles.container} ${pathname === item.path ? styles.active : ''}`}>
-//                 {item.Icon}
-//                 {item.title}
-//             </a>
-//         </Link>
-//     );
-// };
-
-// export default Menulink;
-
-
 "use client"
 import Link from 'next/link';
 import styles from './menulink.module.css';
@@ -49,19 +22,4 @@ const Menulink = ({ item }: { item: MenuItem }) => {
     </Link>
   );
 };
-
 export default Menulink;
-
-// import Link from 'next/link'
-// import styles from './menulink.module.css'
-
-// const Menulink  =({item})=>{
-//     return(
-//         <Link href={item.path} className={styles.container}>
-//             {item.icon}
-//             {item.title}
-//         </Link>
-//     )
-// }
-
-// export default Menulink
