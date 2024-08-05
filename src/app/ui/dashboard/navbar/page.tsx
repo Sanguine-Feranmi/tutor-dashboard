@@ -15,7 +15,7 @@ const Navbar  =()=>{
                 <h1 className={styles.title}>
                    Your <span className={styles.dash}> {pathname.split("/").pop()} </span> Today!
                 </h1>
-                <p className={styles.dasht}>Hello Tutor Reina, Welcome back!</p>
+                <p className={styles.dasht}>Hello Tutor Reina,, Welcome back!</p>
             </div>
                 <div className={styles.menu}>
                     <div className={styles.language}>
