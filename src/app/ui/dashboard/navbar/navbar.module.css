@@ -1,0 +1,56 @@
+ .container
+ {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dash
+{
+   text-transform: capitalize;
+}
+ .title
+ {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+ }
+ .dasht
+ {
+    color: black;
+    font-weight: 600;
+ }
+ .menu
+ {
+    display: flex;
+ }
+ .language
+ {
+    display: flex;
+ }
+ .langChose
+ {
+    display: flex;
+    color: #000;
+    font-weight: 600;
+ }
+ .langflag
+ {
+    padding: 0 10px;
+ }
+ .icon
+ {
+    color: #000;
+    font-size: 30px;
+    padding: 0 0 0 10px;
+ }
+ .user
+ {
+    margin-top: -20px;
+    padding: 0 20px;
+ }
+ .userImage
+ {
+    border-radius: 50%;
+ }
