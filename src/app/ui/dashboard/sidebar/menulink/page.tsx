@@ -98,11 +98,7 @@ interface MenuItem {
   Icon: ReactElement;
 }
 
-interface MenulinksProps {
-  item: MenuItem;
-}
-
-const Menulinks: React.FC<MenulinksProps> = ({ item }) => {
+const Menulinks = ({ item }: { item: MenuItem }) => {
   const pathname = usePathname();
 
   return (
@@ -114,3 +110,4 @@ const Menulinks: React.FC<MenulinksProps> = ({ item }) => {
 };
 
 export default Menulinks;
+
