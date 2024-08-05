@@ -6,7 +6,7 @@ import { BiMessageAltDetail } from "react-icons/bi";
 import { HiOutlineUser } from "react-icons/hi2";
 import { RiBriefcase4Fill } from "react-icons/ri";
 import { Varta } from 'next/font/google';
-import Menulink from './menulink/page';
+import Menulink from './menulink/menulink';
 
 
 
