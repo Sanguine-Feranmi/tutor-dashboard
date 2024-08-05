@@ -35,7 +35,7 @@ interface MenuItem {
   Icon: JSX.Element;
 }
 
-const Menulink = ({ item }: { item: MenuItem }) => {
+const Menulinks = ({ item }: { item: MenuItem}) => {
   const pathname = usePathname();
 
   return (
@@ -46,4 +46,4 @@ const Menulink = ({ item }: { item: MenuItem }) => {
   );
 };
 
-export default Menulink;
+export default Menulinks;
