@@ -28,7 +28,7 @@ const menuItems =
                 Icon: <LuBook/>,
             },
             {
-                title: "Resources",
+                title: "Resourcesss",
                 path: "/dashboard/resources",
                 Icon: <MdFormatListBulletedAdd/>,
             },
