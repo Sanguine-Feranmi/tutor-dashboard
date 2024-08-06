@@ -8,15 +8,16 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className={styles.container}>
-      <div className={styles.menu}>
-        <Sidebar />
-      </div>
-      <div className={styles.content}>
-        <Navbar />
-        {children}
-      </div>
-    </div>
+    <></>
+    // <div className={styles.container}>
+    //   <div className={styles.menu}>
+    //     <Sidebar />
+    //   </div>
+    //   <div className={styles.content}>
+    //     <Navbar />
+        // {children}
+    //   </div>
+    // </div>
   );
 };
 

@@ -2,8 +2,8 @@
 import { usePathname } from "next/navigation"
 import styles from "./navbar.module.css";
 import { IoCaretDown } from "react-icons/io5";
-
 import { MdNotificationsNone, MdOutlineChat, MdPublic, MdSearch } from "react-icons/md"
+import Image from "next/image";
 
 
 
@@ -19,7 +19,7 @@ const Navbar  =()=>{
             </div>
                 <div className={styles.menu}>
                     <div className={styles.language}>
-                        <p className={styles.langChose}>Language : English <span className={styles.langflag}> <img src="/usflag.png"  width="50" height="50"/> </span> <IoCaretDown/> </p>
+                        <p className={styles.langChose}>Language : English <span className={styles.langflag}> <Image src="/usflag.png"  alt="" width="50" height="50"/> </span> <IoCaretDown/> </p>
                     </div>
                     <div className={styles.icon}>
                         <MdNotificationsNone/>
