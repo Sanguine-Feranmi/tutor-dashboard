@@ -1,7 +1,27 @@
+import Cards from '../ui/dashboard/card/page'
+import styles from '../ui/dashboard/dashboard.module.css'
+import Notification from '../ui/dashboard/notification/page'
+import Ongoing from '../ui/dashboard/ongoing/page'
+import Rightbar from '../ui/dashboard/rightbar/page'
+
+
 const Dashboard  =()=>{
     return(
-        <div>
-            Dashboard
+        <div className={styles.dash}>
+            <div className={styles.wrapper}>
+                <div className={styles.main}>
+                    <div className={styles.cards}>
+                        <Cards />
+                    </div>
+                    <div className={styles.notifications}>
+                        <Notification />
+                    </div>
+                    <Ongoing />
+                </div>
+            <div className={styles.side}>
+                <Rightbar/>
+            </div>
+            </div>
         </div>
     )
 }

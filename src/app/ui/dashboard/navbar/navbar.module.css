@@ -1,6 +1,6 @@
  .container
  {
-    padding: 20px;
+    padding: 20px 0px 20px 100px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -28,12 +28,14 @@
  .language
  {
     display: flex;
+    align-items: center;
  }
  .langChose
  {
     display: flex;
     color: #000;
     font-weight: 600;
+    align-items: center;
  }
  .langflag
  {

@@ -1,0 +1,81 @@
+.card
+{
+    width: 100%;
+    background: #2a3677;
+    border-radius: 15px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creative
+{
+    width: 35%;
+}
+.button
+{
+    width: 30%;
+}
+.gif
+{
+    padding-right: 50px;
+}
+/* .gif Image
+{
+    padding-right: 50px;
+} */
+.h1
+{
+    font-size: 50px;
+}
+.btn
+{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #8086AD;
+    font-size: 25px;
+}
+.btn:hover
+{
+    background: #273881;
+
+}
+.learning
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Lcard1
+{
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+    padding:10px 10px 10px 30px;
+    border: 2px solid rgba(128, 128, 128, 0.473);
+    border-radius: 15px;
+    /* box-shadow: 0 0 5px 1px  rgba(0, 0, 0, 0.283); */
+}
+.toon
+{
+    object-fit: cover;
+}
+.Ttext
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+.Ttext h1:first-child
+{
+    color: #2a3677;
+    font-size: 25px;
+    font-weight: 700;
+}
+.Ttext h1:nth-child(2)
+{
+    color: #2a3677;
+    font-size: 30px;
+    font-weight: 600;
+}
