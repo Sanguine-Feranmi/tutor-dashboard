@@ -5,7 +5,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { HiOutlineUser } from "react-icons/hi2";
 import { RiBriefcase4Fill } from "react-icons/ri";
-import { Varta } from 'next/font/google';
+// import { RiMenuUnfoldLine, RiMenuFoldLine } from "react-icons/ri";
 import Menulink from './menulink/menulink';
 
 
@@ -69,21 +69,16 @@ const menuItems =
 const Sidebar  =()=>{
     return(
         <div className={styles.container}>
+            {/* <div className={styles.menuicon}>
+                <RiMenuUnfoldLine className={styles.Micon}/>
+                <RiMenuFoldLine className={styles.Micon} />
+            </div> */}
             <div className={styles.user}>
                 <img src="/logoskaille1.png" alt="" className={styles.userImage} />
-                {/* <img src="/noavatar.png" alt="" width="50" height="50" className={styles.userImage} />
-                <div className={styles.userDetail}>
-                    <span className={styles.userName}>John Doe</span>
-                    <span className={styles.userTitle}>Administrator</span>
-
-                </div> */}
             </div>
             <ul className={styles.list}>
                 {menuItems.map(cat=>(
                     <li key={cat.title}>
-                        {/* <span className={styles.cat}>
-                            {cat.title}
-                        </span> */}
                         {cat.list.map(item=>(
                             <Menulink item={item} key={item.title}/>
                         ))}

@@ -46,3 +46,24 @@
     font-size: 13px;
     margin: 10px 0;
 }
+
+/* .menuicon
+{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background:#51648c;
+    padding: 5px;
+    border-radius: 10px;
+}
+.menuicon .Micon
+{
+    font-size: 35px;
+} */
+@media screen and (max-width: 900px){
+    .menuicon
+    {
+        display: block;
+    }
+    
+}

@@ -21,7 +21,7 @@ const Cards  =()=>{
                 </div>
             </div>
             <div className={styles.learning}>
-                <div className={styles.Lcard1}>
+                <div className={styles.Lcard}>
                     <div className={styles.toon}>
                         <Image src="/astronaut.png" alt='' width="130" height="130"/>
                     </div>
@@ -30,7 +30,7 @@ const Cards  =()=>{
                         <h1>$313.00</h1>
                     </div>
                 </div>
-                <div className={styles.Lcard1}>
+                <div className={styles.Lcard}>
                     <div className={styles.toon}>
                         <Image src="/astronaut.png" alt='' width="130" height="130"/>
                     </div>

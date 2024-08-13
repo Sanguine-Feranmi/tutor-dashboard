@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-between;
 }
-.Lcard1
+.Lcard
 {
     display: flex;
     width: 48%;
@@ -78,4 +78,58 @@
     color: #2a3677;
     font-size: 30px;
     font-weight: 600;
+}
+@media screen and (max-width: 1500px) {
+.learning
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Lcard
+{
+    width: 100%;
+}
+.card
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+}
+.creative
+{
+    width: 100%;
+}
+.button
+{
+    width: 100%;
+}
+.gif
+{
+    padding-right: 100px;
+    display: none;
+}
+/* .gif Image
+{
+    padding-right: 50px;
+} */
+.h1
+{
+    font-size: 50px;
+}
+.btn
+{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #8086AD;
+    font-size: 15px;
+}
+.btn:hover
+{
+    background: #273881;
+
+}
 }
