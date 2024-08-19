@@ -21,7 +21,9 @@ const Dashboard  =()=>{
                     <div className={styles.notifications}>
                         <Notification />
                     </div>
-                    <Ongoing />
+                    <div className={styles.ongoing}>
+                        <Ongoing/>
+                    </div>
                 </div>
             <div className={styles.side}>
                 <Rightbar/>
