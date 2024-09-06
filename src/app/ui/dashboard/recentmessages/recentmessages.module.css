@@ -1,0 +1,57 @@
+.msgs
+{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.msgBox
+{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0 0 2px 1px rgba(128, 128, 128, 0.345);
+}
+.user
+{
+    display: flex;
+    width: 15%;
+    /* justify-content: space-between; */
+    /* vertical-align: middle; */
+}
+
+.userImg
+{
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.userName p:nth-child(1)
+{
+    font-weight: 700;
+}
+.userName p:nth-child(2)
+{
+    font-size: 15px;
+    color: grey;
+}
+.timeview
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time
+{
+    padding-right: 10px;
+}
+.time p
+{
+    font-size: 15px;
+    color: grey;
+}

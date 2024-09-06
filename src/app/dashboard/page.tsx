@@ -2,6 +2,7 @@ import Cards from '../ui/dashboard/card/page'
 import styles from '../ui/dashboard/dashboard.module.css'
 import Notification from '../ui/dashboard/notification/page'
 import Ongoing from '../ui/dashboard/ongoing/page'
+import RecentMessages from '../ui/dashboard/recentmessages/page'
 import Rightbar from '../ui/dashboard/rightbar/page'
 import { RiMenuUnfoldLine, RiMenuFoldLine } from "react-icons/ri";
 
@@ -23,6 +24,9 @@ const Dashboard  =()=>{
                     </div>
                     <div className={styles.ongoing}>
                         <Ongoing/>
+                    </div>
+                    <div className={styles.ongoing}>
+                        <RecentMessages/>
                     </div>
                 </div>
             <div className={styles.side}>
