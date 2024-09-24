@@ -32,3 +32,50 @@ border: 1px solid grey;
 {
     font-size: 40px;
 }
+.eventcard 
+{
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.121);
+}
+.event
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.eventcard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.eventcard .head p
+{
+    font-size: 15px;
+}
+.event .bottom .iconTxt
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.event .bottom .iconTxt .icon 
+{
+    font-size: 30px;
+    color: #2a3677;
+}
+.event .bottom .dateTime
+{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 15px;
+}   
+.event .bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -21,24 +21,43 @@
 .user
 {
     display: flex;
-    width: 15%;
-    /* justify-content: space-between; */
-    /* vertical-align: middle; */
+    width: 65%;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
 }
-
+.userN 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .userImg
 {
     border-radius: 50%;
-    padding-right: 10px;
+    align-items: start;
+}
+.userImg .userImage
+{
+    border-radius: 50%;
+}
+.userName 
+{
+    padding-left: 10px;
 }
 .userName p:nth-child(1)
 {
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 500;
 }
 .userName p:nth-child(2)
 {
     font-size: 15px;
     color: grey;
+}
+.message p
+{
+    font-size: 17px;
 }
 .timeview
 {
@@ -54,4 +73,8 @@
 {
     font-size: 15px;
     color: grey;
+}
+.timeview .viewBtn
+{
+    font-size: 18px;
 }

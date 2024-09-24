@@ -29,9 +29,9 @@ const Dashboard  =()=>{
                         <RecentMessages/>
                     </div>
                 </div>
-            <div className={styles.side}>
-                <Rightbar/>
-            </div>
+                <div className={styles.side}>
+                    <Rightbar/>
+                </div>
             </div>
         </div>
     )
