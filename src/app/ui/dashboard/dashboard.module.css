@@ -44,20 +44,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* padding: 0 50px; */
 }
 .cards
 {
-    /* display: flex; */
     gap: 20px;
     justify-content: space-between;
-    /* padding: 0 100px ; */
 }
-/* .notifications,
-.ongoing
-{
-    padding: 0 100px;
-} */
 .side
 {
     flex: 1;
@@ -74,9 +66,8 @@
 }
 .menu
 {
-    flex:3;
     background-color: var(--bgSoft);
-    display: none; 
+    display: none;
 }
 
 .content
@@ -84,11 +75,6 @@
     flex: 6;
     padding: 20px;
 }
-
-/* .dash
-{
-    padding: 0 60px;
-} */
 .wrapper
 {
 
@@ -102,17 +88,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-.cards
-{
-    /* display: flex; */
-    gap: 20px;
-    justify-content: space-between;
-    padding: 0 100px ;
-}
-.notifications
-{
-    padding: 0 100px;
 }
 .side
 {

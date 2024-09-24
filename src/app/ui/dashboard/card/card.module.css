@@ -92,12 +92,11 @@
 }
 .card
 {
-    width: 100%;
     padding: 20px;
-    display: flex;
     flex-direction: column;
     vertical-align: middle;
-    align-items: center;
+    text-align: center;
+    gap: 25px;
 }
 .creative
 {
@@ -112,10 +111,7 @@
     padding-right: 100px;
     display: none;
 }
-/* .gif Image
-{
-    padding-right: 50px;
-} */
+
 .h1
 {
     font-size: 50px;
