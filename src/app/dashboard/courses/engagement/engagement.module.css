@@ -1,0 +1,112 @@
+.engages
+{
+    width: 90%;
+    color: #000;
+}
+.engage
+{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    height: 300px;
+    gap: 30px;
+}
+.engagement
+{
+    flex: 2;
+}
+.engagement .head p:nth-child(1)
+{
+    color: #273881;
+    font-weight: 600;
+}
+.engagement .head p:nth-child(2)
+{
+    text-align: right;
+    font-weight: 200;
+    font-size: 14px;
+    color: gray;
+    align-items: center;
+}
+.engagement .head p:nth-child(2) span 
+{
+    color: #273881;
+    font-size: 25px;
+    font-weight: 900;
+}
+.engagements
+{
+    justify-content: space-around;
+    color: #000;
+    height: 200px;
+    position: relative;
+
+}
+.engagements .rate
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+.rateBg
+{
+    display: flex;
+    gap: 5px;
+    vertical-align: middle;
+    align-items: center;
+}
+.rateBg hr 
+{
+    color: gray;
+    border: 1px dashed gray;
+    width: 100%;
+}
+.engagements .overlay
+{
+    height: 87%;
+    width: 85%;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+    padding: 0 10px 0 10px;
+    margin-left: 13%;
+    top: 10px;
+    /* bottom: -10px; */
+    z-index: 1;
+}
+.engagements .overlay div
+{
+    width: 30px;
+    background: #273881;
+    border-radius: 10px;
+}
+.engagements .overlay div:nth-child(1)
+{
+    height: 82%;
+}
+.engagements .overlay div:nth-child(2)
+{
+    height: 100%;
+}
+.engagements .overlay div:nth-child(3)
+{
+    height: 80%;
+}
+.engagements .overlay div:nth-child(4)
+{
+    height: 60%;
+}
+.rating
+{
+    flex: 2;
+}

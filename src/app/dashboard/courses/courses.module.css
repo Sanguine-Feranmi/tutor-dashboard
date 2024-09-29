@@ -9,10 +9,10 @@
 .cards
 {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     justify-content: space-between;
     padding: 10px 0;
-    width: 55%;
+    width: 90%;
 }
 /* .cards .card  */
 .cards .card 
@@ -69,14 +69,14 @@
 {
     font-size: 17px;
 }
-.cards .card:nth-child(5) .cardTxts
+/* .cards .card:nth-child(5) .cardTxts
 {
     gap: 3px;
 }
 .cards .card:nth-child(5) .cardTxts .cardTxt
 {
     line-height: 16px;
-}
+} */
 .cards .card .cardTxts .cardRate
 {
     font-size: 25px;

@@ -1,32 +1,14 @@
 import Link from 'next/link'
-import styles from './courses.module.css'
+import styles from '../courses.module.css'
 import { PiBookOpen, PiCaretLeftBold, PiCreditCard, PiUser } from 'react-icons/pi'
 import { SlBookOpen, SlPieChart } from 'react-icons/sl'
 import { TbChartPieFilled } from 'react-icons/tb'
 import { FcStatistics } from 'react-icons/fc'
-import Cards from './cards/page'
-import Courses from './course/page'
-import Engagement from './engagement/page'
 
-
-const Course =()=>{
+const Cards = ()=>{
     return(
-        <div>
-            <div className={styles.back}>
-                <div className={styles.backIcon}><PiCaretLeftBold/></div>
-                <Link href="/dashboard" className={styles.backTxt}>Go To Dashboard</Link>
-            </div>
-            <div>
-                <Cards/>
-            </div>
-            <div>
-                <Courses/>
-            </div>
-            <div>
-                <Engagement/>
-            </div>
-
-            {/* <div className={styles.cards}>
+        <>
+            <div className={styles.cards}>
                 <div className={styles.card}>
                     <div className={styles.cardIcon}>
                         <div><PiCreditCard/></div>
@@ -77,9 +59,8 @@ const Course =()=>{
                     </div>
 
                 </div>
-            </div> */}
-        </div>
+            </div>
+        </>
     )
 }
-
-export default Course
+export default Cards
