@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import styles from './courses.module.css'
 import { PiBookOpen, PiCaretLeftBold, PiCreditCard, PiUser } from 'react-icons/pi'
-import { SlBookOpen, SlPieChart } from 'react-icons/sl'
-import { TbChartPieFilled } from 'react-icons/tb'
-import { FcStatistics } from 'react-icons/fc'
 import Cards from './cards/page'
 import Courses from './course/page'
 import Engagement from './engagement/page'
+import Activity from './activity/page'
 
 
 const Course =()=>{
@@ -24,6 +22,9 @@ const Course =()=>{
             </div>
             <div>
                 <Engagement/>
+            </div>
+            <div>
+                <Activity/>
             </div>
 
             {/* <div className={styles.cards}>

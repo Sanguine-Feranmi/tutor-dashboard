@@ -19,12 +19,14 @@
 {
     flex: 2;
 }
-.engagement .head p:nth-child(1)
+.engagement .head p:nth-child(1),
+.rating .head p:nth-child(1)
 {
     color: #273881;
     font-weight: 600;
 }
-.engagement .head p:nth-child(2)
+.engagement .head p:nth-child(2),
+.rating .head p:nth-child(2)
 {
     text-align: right;
     font-weight: 200;
@@ -32,7 +34,8 @@
     color: gray;
     align-items: center;
 }
-.engagement .head p:nth-child(2) span 
+.engagement .head p:nth-child(2) span,
+.rating .head p:nth-child(2) span 
 {
     color: #273881;
     font-size: 25px;
@@ -70,7 +73,8 @@
     border: 1px dashed gray;
     width: 100%;
 }
-.engagements .overlay
+.engagements .overlay,
+.rating .engagements .overlay
 {
     height: 87%;
     width: 85%;
@@ -109,4 +113,20 @@
 .rating
 {
     flex: 2;
+}
+.rating .engagements .overlay div:nth-child(1)
+{
+    height: 50%;
+}
+/* .rating .engagements .overlay div:nth-child(2)
+{
+    height: 64%;
+} */
+.rating .engagements .overlay div:nth-child(3)
+{
+    height: 82%;
+}
+.rating .engagements .overlay div:nth-child(4)
+{
+    height: 83%;
 }

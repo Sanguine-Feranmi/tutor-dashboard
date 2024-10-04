@@ -1,0 +1,103 @@
+.actSect
+{
+    width: 90%;
+    padding: 20px 0 0 0;
+    position: relative;
+}
+.actSect .title h1
+{
+    color: #273881;
+    font-weight: 600;
+    font-size: 30px;
+}
+.actSect .actHead
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+}
+.actSect .actHead .name,
+.actSect .acts .act .name
+{
+    flex: 3;
+}
+.actSect .actHead 
+{
+    color: gray;
+    font-size: 17px;
+    font-weight: 400;
+}
+.actSect .actHead .course,
+.actSect .acts .act .course
+{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+.actSect .acts
+{
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.actSect .acts .act
+{
+    display: flex;
+    padding:7px  10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.actSect .acts .act .name
+{
+    display: flex;
+    gap: 30px;
+}
+.actSect .acts .act .name .icons
+{
+    background: rgba(255, 0, 0, 0.258);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.actSect .acts .act .name .icons  .icon
+{
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+.actSect .acts .act .name .text h1
+{
+    color: #273881;
+    font-size:20px;
+    font-weight: 600;
+}
+.actSect .acts .act .name .text p
+{
+    color: gray;
+    font-size: 14px;
+}
+.actSect .acts .act .course
+{
+    align-items: center;
+}
+.actSect .acts .act .course .loc
+{
+    color: gray;
+    font-size: 18px;
+}
+.actSect .acts .act .course .view
+{
+    display: flex;
+}
+.actSect .acts .act .course .view button
+{
+    background: #273881;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 16px;
+}
