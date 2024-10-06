@@ -27,6 +27,11 @@ const menuItems =
                 path: "/dashboard/courses",
                 Icon: <LuBook/>,
             },
+            // {
+            //     title: "My Course",
+            //     path: "/dashboard/courses2",
+            //     Icon: <LuBook/>,
+            // },
             {
                 title: "Resourcesss",
                 path: "/dashboard/resources",
