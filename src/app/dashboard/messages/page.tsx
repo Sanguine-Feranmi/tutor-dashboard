@@ -28,7 +28,8 @@ export default function ChatPage() {
           </div>
           <div className={styles.grp}>
           <div className={styles.user}>
-            <img src="/noavatar.png" alt="" width="60" height="60"className={styles.userImage} />
+            {/* <img src="/noavatar.png" alt="" width="60" height="60" className={styles.userImage} /> */}
+            <Image src="/noavatar.png" alt="A description of the image" width={60} height={60} className={styles.userImage}/>
           </div>
             <div className={styles.userGrp}>
               <div className={styles.grpDetails}>
