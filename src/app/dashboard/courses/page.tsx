@@ -9,7 +9,7 @@ import Activity from './activity/page'
 
 const Course =()=>{
     return(
-        <div>
+        <div className={styles.container}>
             <div className={styles.back}>
                 <div className={styles.backIcon}><PiCaretLeftBold/></div>
                 <Link href="/dashboard" className={styles.backTxt}>Go To Dashboard</Link>
@@ -26,59 +26,6 @@ const Course =()=>{
             <div>
                 <Activity/>
             </div>
-
-            {/* <div className={styles.cards}>
-                <div className={styles.card}>
-                    <div className={styles.cardIcon}>
-                        <div><PiCreditCard/></div>
-                    </div>
-                    <div className={styles.cardTxts}>
-                        <div className={styles.cardTxt}>Total Earnings</div>
-                        <div className={styles.cardRate}>$313.00</div>
-                    </div>
-
-                </div>
-                <div className={styles.card}>
-                    <div className={styles.cardIcon}>
-                        <div><SlBookOpen/></div>
-                    </div>
-                    <div className={styles.cardTxts}>
-                        <div className={styles.cardTxt}>Total Courses</div>
-                        <div className={styles.cardRate}>4</div>
-                    </div>
-
-                </div>
-                <div className={styles.card}>
-                    <div className={styles.cardIcon}>
-                        <div><TbChartPieFilled/></div>
-                    </div>
-                    <div className={styles.cardTxts}>
-                        <div className={styles.cardTxt}>Engagement Rate</div>
-                        <div className={styles.cardRate}>87%</div>
-                    </div>
-
-                </div>
-                <div className={styles.card}>
-                    <div className={styles.cardIcon}>
-                        <div><PiUser/></div>
-                    </div>
-                    <div className={styles.cardTxts}>
-                        <div className={styles.cardTxt}>Total Learners</div>
-                        <div className={styles.cardRate}>150 Learners</div>
-                    </div>
-
-                </div>
-                <div className={styles.card}>
-                    <div className={styles.cardIcon}>
-                        <div><FcStatistics/></div>
-                    </div>
-                    <div className={styles.cardTxts}>
-                        <div className={styles.cardTxt}>Your Teacher Rating</div>
-                        <div className={styles.cardRate}>97%</div>
-                    </div>
-
-                </div>
-            </div> */}
         </div>
     )
 }
