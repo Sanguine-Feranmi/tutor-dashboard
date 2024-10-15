@@ -64,10 +64,23 @@
   cursor: pointer;
   /* margin-bottom: 20px; */
 }
-/* .grp
+.grps
 {
-
-} */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.grpsHead
+{
+  background: rgba(128, 128, 128, 0.338);
+  padding-left: 20px;
+}
+.grp
+{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
 .user
 {
    margin-top: -20px;
