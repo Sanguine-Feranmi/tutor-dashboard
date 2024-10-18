@@ -28,7 +28,32 @@ export default function ChatPage() {
           </div>
           <div className={styles.grp}>
             <div className={styles.user}>
-              <Image src="/noavatar.png" alt="A description of the image" width={60} height={60} className={styles.userImage}/>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Group Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
             </div>
             <div className={styles.userGrp}>
               <div className={styles.grpDetails}>
@@ -52,24 +77,175 @@ export default function ChatPage() {
             </div>
           </div>
         </div>
-
-        <div className={styles.section}>
-          <h4>Tutors</h4>
-          <div className={styles.chatItem}>
-            <p>Tutor Name</p>
-            <small>9:46 AM</small>
+        {/* tutors */}
+        <div className={styles.grps}>
+          <div className={styles.grpsHead}>
+            <h1>Tutors</h1>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Tutor Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Tutor Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className={styles.section}>
-          <h4>Courses</h4>
-          <div className={styles.chatItem}>
-            <p>Student Name</p>
-            <small>10/12/2024</small>
+        {/* Courses */}
+        <div className={styles.grps}>
+          <div className={styles.grpsHead}>
+            <h1>Course 1</h1>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Student Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Student Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Course 2 */}
+        <div className={styles.grps}>
+          <div className={styles.grpsHead}>
+            <h1>Course 2</h1>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Student Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.grp}>
+            <div className={styles.user}>
+              <Image src="/noavatar.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
+            </div>
+            <div className={styles.userGrp}>
+              <div className={styles.grpDetails}>
+                <div className={styles.grpName}>
+                  <h1>Student Name</h1>
+                </div>
+                <div className={styles.grpDsp}>
+                  <p>Lorem bei lay idfj likst...</p>
+                </div>
+              </div>
+              <div className={styles.times}>
+                <div className={styles.time}>
+                  <p>1:22pm</p>
+                </div>
+                <div className={styles.date}>
+                  <p>
+                    10/12/2024
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       {/* Chat Window */}
       <div className={styles.chatWindow}>
         <div className={styles.chatHeader}>

@@ -68,27 +68,53 @@
 {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
 }
 .grpsHead
 {
-  background: rgba(128, 128, 128, 0.338);
+  background: rgba(128, 128, 128, 0.119);
   padding-left: 20px;
 }
 .grp
 {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0px;
+}
+.grps:nth-child(3),
+.grps:nth-child(4),
+.grps:nth-child(5)
+{
+  margin-top: 20px;
 }
 .user
 {
-   margin-top: -20px;
-   padding: 0 20px;
+   /* margin-top: -20px; */
+   padding: 0 10px;
 }
 .userImage
 {
    border-radius: 50%;
+}
+.userGrp
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
+.userGrp .grpName
+{
+  font-size: 15px;
+}
+.userGrp .grpDsp
+{
+  font-size: 14px;
+}
+.userGrp .times
+{
+  font-size: 13px;
 }
 .section {
   margin-bottom: 20px;
