@@ -262,13 +262,13 @@ export default function ChatPage() {
 
           <div className={`${styles.message} ${styles.myMessage}`}>
             <div className={styles.sender}>You</div>
-            <p>Thanks! 🎉 I've been struggling with that topic lately. Excited to explore the resources.</p>
+            <p>Thanks! 🎉 I&apos;ve been struggling with that topic lately. Excited to explore the resources.</p>
             <small>9:12 AM</small>
           </div>
 
           <div className={styles.message}>
             <div className={styles.sender}>Robert</div>
-            <p>This is great, I can't wait to use this too! Thank you Mariah.</p>
+            <p>This is great, I can&apos;t wait to use this too! Thank you Mariah.</p>
             <small>11:30 AM</small>
           </div>
         </div>
