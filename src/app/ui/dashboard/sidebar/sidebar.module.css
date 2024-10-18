@@ -16,8 +16,9 @@
 {
     /* border-radius: 50%; */
     width: 60%;
-    margin: auto;
-    object-fit: cover;
+    margin: 0 auto;
+    /* object-fit: cover; */
+    /* border-radius: ; */
 
 }
 .userDetail

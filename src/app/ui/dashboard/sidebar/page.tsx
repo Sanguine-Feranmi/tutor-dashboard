@@ -7,7 +7,7 @@ import { HiOutlineUser } from "react-icons/hi2";
 import { RiBriefcase4Fill } from "react-icons/ri";
 // import { RiMenuUnfoldLine, RiMenuFoldLine } from "react-icons/ri";
 import Menulink from './menulink/menulink';
-
+import Image from 'next/image';
 
 
 
@@ -79,7 +79,8 @@ const Sidebar  =()=>{
                 <RiMenuFoldLine className={styles.Micon} />
             </div> */}
             <div className={styles.user}>
-                <img src="/logoskaille1.png" alt="" className={styles.userImage} />
+                {/* <img src="/logoskaille1.png" alt="" className={styles.userImage} /> */}
+                <Image src="/logoskaille1.png" alt="A description of the image" width={50} height={50} className={styles.userImage}/>
             </div>
             <ul className={styles.list}>
                 {menuItems.map(cat=>(
